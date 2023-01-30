@@ -16,8 +16,8 @@ extern "C" {
 // Config Wifi//
 ////////////////////////
 typedef struct {
-  char ssid[64] = "EmOne_2.4G";
-  char pass[64] = "nice2meetu";
+  char ssid[64] = "#####";
+  char pass[64] = "#####";
 } config_wf;
 config_wf cfg_wifi;
 TimerHandle_t wifiReconnectTimer;
